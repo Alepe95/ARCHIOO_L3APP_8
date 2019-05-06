@@ -1,7 +1,7 @@
 package premierCoursCalculatrice;
 
 
-public class Expression {
+public abstract class Expression {
 	private static int operande1;	
 	private static int operande2;
 	private static int resultat;
