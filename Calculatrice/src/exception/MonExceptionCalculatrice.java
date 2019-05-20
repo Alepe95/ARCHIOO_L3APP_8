@@ -8,7 +8,7 @@ public enum MonExceptionCalculatrice{
 	UTILISATION_ZERO_DIVISION(3,"Division par Zéro interdit");
 	
 	private final  int code;
-	private  String message ;
+	private  String message;
 	
 	MonExceptionCalculatrice(int code, String message){
 		this.code = code;

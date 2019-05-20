@@ -11,12 +11,9 @@ public class Division extends Operation {
 	@Override
 	public int execute(int nombreA, int nombreB) throws MonException {
 		try {
-			
 			return nombreA / nombreB;
 		}catch(ArithmeticException e){
-			if(nombreB == 0) {
-			 throw new MonException(3, MonExceptionCalculatrice.UTILISATION_ZERO_DIVISION.getMessage());
-			}
+			throw new MonException(3, MonExceptionCalculatrice.UTILISATION_ZERO_DIVISION.getMessage());
 		}
 	}
 }
