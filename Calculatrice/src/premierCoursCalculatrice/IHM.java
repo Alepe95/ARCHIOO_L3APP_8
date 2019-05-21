@@ -7,5 +7,5 @@ import exception.MonException;
 
 public interface IHM {
 
-	public default void launch() throws MonException, FileNotFoundException, IOException {}
+	public default void launch() throws MonException, FileNotFoundException, IOException, ClassNotFoundException {}
 }

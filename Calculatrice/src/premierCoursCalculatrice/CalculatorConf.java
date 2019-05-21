@@ -10,7 +10,7 @@ import operation.Division;
 public class CalculatorConf {
 	static Map <Character, Operation> mapOp = new HashMap<Character, Operation>();
 	
-	public static Operation getOperator(char op) {
+	public static Operation getOperator(Character op) {
 		init();
 		return mapOp.get(op);
 	}
